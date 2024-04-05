@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2af5113d-c69e-4eb9-9a8b-8431c585cd8d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../MyBatis_SimpleBBS/src/main/java/com/study/springboot/entity/SimpleBbs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyBatis_SimpleBBS/src/main/resources/log4jdbc.log4j2.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_sb0402/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_sb0402/src/main/java/com/mohaji/_sb0402/controller/MyController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_sb0402/src/main/java/com/mohaji/_sb0402/entity/MyData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_sb0402/src/main/java/com/mohaji/_sb0402/repository/MyDataRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_sb0402/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_sb0402/src/main/resources/templates/root.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_sb0402/src/main/resources/templates/useThymeleaf.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_sb0402_2/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_sb0402_2/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_sb0402_2/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_sb0402_2/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_sb0402_2/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_sb0402_2/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_sb0402_2/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_sb0402_2/src/main/java/com/mohaji/_sb0402/Sb0402Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_sb0402_2/src/main/java/com/mohaji/_sb0402/controller/MyController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_sb0402_2/src/main/java/com/mohaji/_sb0402/entity/MyData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_sb0402_2/src/main/java/com/mohaji/_sb0402/repository/MyDataRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_sb0402_2/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_sb0402_2/src/main/resources/templates/layout/footer.mustache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_sb0402_2/src/main/resources/templates/layout/header.mustache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_sb0402_2/src/main/resources/templates/list.mustache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_sb0402_2/src/main/resources/templates/main.mustache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_sb0402_2/src/main/resources/templates/orderForm.mustache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_sb0402_2/src/main/resources/templates/orderList.mustache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_sb0402_2/src/main/resources/templates/posts-update.mustache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_sb0402_2/src/main/resources/templates/root.mustache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_sb0402_2/src/main/resources/templates/save.mustache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_sb0402_2/src/test/java/com/mohaji/_sb0402/Sb0402ApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../_sb0401/src/main/java/com/mohaji/_sb0401/repository/MemoRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../_sb0401/src/main/java/com/mohaji/_sb0401/repository/MemoRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../_sb0401/src/test/java/com/mohaji/_sb0401/Sb0401ApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../_sb0401/src/test/java/com/mohaji/_sb0401/Sb0401ApplicationTests.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="board" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="2eer8sNLj96ZVRVVMScWl2gPWrq" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/intel/Board3",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "File.Encoding",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="board.board.entity" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="_0405Board1" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="_0405Board1" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BoardApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="board.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="board.BoardApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-11.0.22-corretto-11.0.22-4caba194b151-868cef46" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2af5113d-c69e-4eb9-9a8b-8431c585cd8d" name="Changes" comment="" />
+      <created>1712275728447</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1712275728447</updated>
+      <workItem from="1712275729515" duration="285000" />
+      <workItem from="1712276155273" duration="53000" />
+      <workItem from="1712277328789" duration="93000" />
+      <workItem from="1712277508409" duration="293000" />
+      <workItem from="1712277858073" duration="477000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

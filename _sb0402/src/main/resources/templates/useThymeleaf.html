@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ko" xmlns:th ="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Thymeleaf Sample</title>
+</head>
+<body>
+    <table th:border="1">
+        <tr>
+            <th>번호</th>
+            <th>이름</th>
+            <th>이메일</th>
+        </tr>
+        <div th:each="list : ${list}">
+        <tr>
+            <td>[[${list.id}]]</td>
+            <td>[[${list.name}]]</td>
+            <td>[[${list.mail}]]</td>
+        </tr>
+    </table>
+
+    <table th:border="1">
+        <tr>
+            <th>번호</th>
+            <th>이름</th>
+            <th>이메일</th>
+        </tr>
+        <div >
+            <tr th:each="list : ${list}" th:object="${list}">
+                <td th:text="*{id}"></td>
+                <td th:text="*{name}"></td>
+                <td th:text="*{mail}"></td>
+            </tr>
+    </table>
+</div>
+
+</body>
+</html>
