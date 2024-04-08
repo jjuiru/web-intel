@@ -1,0 +1,54 @@
+plugins {
+	id 'java'
+	id 'org.springframework.boot' version '2.7.18'
+	id 'io.spring.dependency-management' version '1.1.4'
+}
+
+group = 'com.mohaji'
+version = '0.0.1-SNAPSHOT'
+
+java {
+	sourceCompatibility = '11'
+}
+
+repositories {
+	mavenCentral()
+}
+
+dependencies {
+	// Spring Boot Starter Data JDBC
+	implementation 'org.springframework.boot:spring-boot-starter-jdbc'
+	// Spring Boot Starter Web
+	implementation 'org.springframework.boot:spring-boot-starter-web'
+	testImplementation('org.springframework.boot:spring-boot-starter-test') {
+		exclude group: 'org.junit.vintage', module: 'junit-vintage-engine'
+	}
+	//jstl
+	implementation 'javax.servlet:jstl'
+	implementation 'org.apache.tomcat.embed:tomcat-embed-jasper'
+	// Log4jdbc-log4j2-jdbc4
+	implementation 'org.bgee.log4jdbc-log4j2:log4jdbc-log4j2-jdbc4:1.16'
+	implementation 'org.mybatis.spring.boot:mybatis-spring-boot-starter:2.2.0'
+	// Mysql Spring Boot Starter
+	implementation 'mysql:mysql-connector-java:8.0.33'
+
+	implementation 'org.slf4j:slf4j-api:1.7.25'
+	implementation 'ch.qos.logback:logback-classic:1.2.3'
+
+	// Lombok (옵션)
+	compileOnly 'org.projectlombok:lombok:1.18.20'
+	annotationProcessor 'org.projectlombok:lombok:1.18.20'
+
+	// 테스트 관련 의존성
+	testImplementation 'org.junit.jupiter:junit-jupiter:5.5.0'
+
+
+
+
+
+
+}
+
+tasks.named('test') {
+	useJUnitPlatform()
+}
