@@ -3,6 +3,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calendar with Schedule</title>
@@ -42,6 +43,14 @@
     </style>
 </head>
 <body>
+<article>
+    <div>
+        <h1>
+            <a href="main">MOHAJIPOP!</a>
+        </h1>
+        <h3>서울 팝업 전시 모두 모여라</h3>
+    </div>
+</article>
     <h2>Calendar with Schedule</h2>
     <div id="calendar"></div>
 
