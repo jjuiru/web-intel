@@ -1,7 +1,11 @@
 package com.mohaji._sb0423.spring;
 
+import lombok.RequiredArgsConstructor;
+import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
+@Service
+@RequiredArgsConstructor
 public class ChangePasswordService {
 
 	private MemberDao memberDao;
