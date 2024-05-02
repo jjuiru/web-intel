@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Board List</title>
+    <style>
+        /* 스타일링 예시 */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        .button-container {
+            margin-top: 20px;
+        }
+        .write-button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+<h2>Board List</h2>
+
+<table>
+    <thead>
+    <tr>
+        <th>Index</th>
+        <th>Title</th>
+        <th>Contents</th>
+        <th>Hit Count</th>
+        <th>Creator ID</th>
+        <th>Created Datetime</th>
+        <th>Updater ID</th>
+        <th>Updated Datetime</th>
+        <th>Deleted YN</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr th:each="board : ${list}">
+        <td th:text="${board.boardIdx}">1</td>
+        <td th:text="${board.title}">Sample Title</td>
+        <td th:text="${board.contents}">Sample Contents</td>
+        <td th:text="${board.hitCnt}">0</td>
+        <td th:text="${board.creatorId}">admin</td>
+        <td th:text="${board.createdDatetime}">2024-05-02 10:00:00</td>
+        <td th:text="${board.updaterId}">admin</td>
+        <td th:text="${board.updatedDatetime}">2024-05-02 10:00:00</td>
+        <td th:text="${board.deletedYn}">N</td>
+    </tr>
+    </tbody>
+</table>
+
+<div class="button-container">
+    <a href="/write" class="write-button">Write New Board</a>
+</div>
+
+</body>
+</html>
