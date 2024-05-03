@@ -3,9 +3,8 @@
 
 <mapper namespace="com.mohaji.dockertest2.mapper.MemberMapper">
 
-    <select id="countMembers" resultType="Int">
+    <select id="countMembers" resultType="int">
         select count(*) from member
-
     </select>
 
 </mapper>
