@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>로그인 페이지</title>
+    <link rel="stylesheet" th:href="@{/css/styles.css}">
+</head>
+<body>
+<div class="container">
+    <div class="login-page">
+        <h2>로그인</h2>
+        <form action="/main" method="post">
+            <input type="text" name="username" placeholder="아이디"><br>
+            <input type="password" name="password" placeholder="비밀번호"><br>
+            <input type="checkbox" name="remember" id="remember"><label for="remember">로그인 유지</label><br>
+            <button type="submit">로그인</button>
+        </form>
+        <div class="register-link">
+            <a href="#">회원가입</a>
+        </div>
+    </div>
+</div>
+</body>
+</html>

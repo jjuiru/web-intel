@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main 페이지</title>
+    <link rel="stylesheet" th:href="@{/css/styles.css}">
+</head>
+<body>
+<div class="container">
+    <div class="header">
+        <div class="user-info">00님</div>
+        <button class="logout-button">로그아웃</button>
+    </div>
+    <nav class="navigation">
+        <a href="#">mohaji 온라인강의 소개</a>
+        <a href="/myPage">나의 강의실</a>
+        <a href="#">수강신청</a>
+    </nav>
+    <div class="figure">
+        <div class="section">
+            <h3>나의 강의</h3>
+            <ul>
+                <li><a href="#content-수강상태" onclick="showContent('content-수강상태')">수강상태</a></li>
+                <li><a href="#">성적정보</a></li>
+            </ul>
+        </div>
+        <div class="section">
+            <h3>수강이력</h3>
+            <ul>
+                <li><a href="#">수강완료</a></li>
+            </ul>
+        </div>
+        <div class="section">
+            <h3>나의정보</h3>
+            <ul>
+                <li><a href="#">정보수정</a></li>
+                <li><a href="#">비밀번호찾기</a></li>
+                <li><a href="#">PC 등록</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="content" id="content-수강상태">
+        <h2>수강내역</h2>
+        <table>
+            <thead>
+            <tr>
+                <th>과목명</th>
+                <th>학습기간</th>
+                <th>총차시</th>
+                <th>시험</th>
+                <th>과제/토론</th>
+                <th>강의실</th>
+            </tr>
+            </thead>
+            <tbody>
+            <!-- 여기에 강의 정보를 나타내는 각 행 추가 -->
+            </tbody>
+        </table>
+    </div>
+</div>
+<script>
+    function showContent(id) {
+        // 모든 컨텐츠를 숨깁니다
+        var contents = document.querySelectorAll('.content');
+        contents.forEach(function(content) {
+            content.style.display = 'none';
+        });
+
+        // 클릭된 메뉴의 href에 해당하는 컨텐츠만 보이게 합니다
+        var targetContent = document.getElementById(id);
+        if (targetContent) {
+            targetContent.style.display = 'block';
+        }
+    }
+</script>
+</body>
+</html>

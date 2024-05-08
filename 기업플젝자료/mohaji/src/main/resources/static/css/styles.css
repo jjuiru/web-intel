@@ -1,0 +1,144 @@
+@charset "utf-8";
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Landing Page Styles */
+.landing-page {
+    text-align: center;
+}
+
+.login-button {
+    background-color: #3498db;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+/* Login Page Styles */
+.login-page {
+    text-align: center;
+}
+
+.login-page h2 {
+    color: #3498db;
+}
+
+.login-page form {
+    margin-top: 20px;
+}
+
+.login-page input[type="text"],
+.login-page input[type="password"] {
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 300px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.login-page input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+.login-page button {
+    background-color: #3498db;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.register-link {
+    margin-top: 10px;
+}
+
+.register-link a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+.register-link a:hover {
+    text-decoration: underline;
+}
+
+/* Main Page Styles */
+.header {
+    background-color: #3498db;
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.user-info {
+    margin-right: 20px;
+}
+
+.navigation {
+    background-color: #3498db;
+    color: white;
+    padding: 10px;
+    display: flex;
+}
+
+.navigation a {
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+/* Figure Styles */
+.figure {
+    display: flex;
+    flex-direction: column; /* 섹션들을 세로로 표시 */
+    gap: 20px; /* 각 섹션 사이의 간격 설정 */
+}
+
+.figure .section {
+    /* flex: 1; */
+    /* 각 섹션을 독립적인 영역으로 설정 */
+}
+
+.figure .section h3 {
+    margin-bottom: 10px;
+}
+
+.figure .section ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0; /* 리스트의 기본 마진 제거 */
+}
+
+.figure .section ul li {
+    margin-bottom: 10px;
+}
+
+.figure .section ul li a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+.figure .section ul li a:hover {
+    text-decoration: underline;
+}
+
+.figure .content {
+    display: none; /* 기본적으로 컨텐츠를 숨깁니다 */
+    flex: 1; /* 남은 공간을 모두 차지하도록 설정 */
+}
